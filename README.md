@@ -8,6 +8,7 @@
 ## Requirements
 We think the requirements for the environment are so loose that any version can be used
 
+```
 python=3.8.12
 pytorch=1.9.1+cu111
 transformers=4.12.5
@@ -16,6 +17,8 @@ pandas=1.3.3
 dill=0.3.4
 tqdm=4.62.3
 rdkit=2021.09.2
+```
+All the large files (data, model weight files, full results, etc.) can be downloaded [here](https://drive.google.com/drive/folders/1EGzLhcXD5jWuTRhK5fmSuYp3PWu3KXVd?usp=share_link)
 
 ## Train Transformer-ED
 First train transformer's decoder:
